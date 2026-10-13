@@ -1,0 +1,42 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+
+# Local scratch and temporary files
+scratch/
+tmp/
+temp/
+
+# Local database dumps and exported data
+*.bson
+*.dump
+*.sql
+*.sqlite3
+
+# Local-only test output
+test-results/
